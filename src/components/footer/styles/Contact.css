@@ -1,0 +1,23 @@
+.container_contact {
+    background-color: #174030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.container_contact a {
+    transition: all .5s ease;
+    color: black;
+}
+.container_contact a:hover {
+    transition: all .5s ease;
+    color: yellow;
+}
+
+.container_contact_div {
+    width: 150px;
+    color: yellow;
+    margin-right: 20px;
+    font-size: 20px;
+}
