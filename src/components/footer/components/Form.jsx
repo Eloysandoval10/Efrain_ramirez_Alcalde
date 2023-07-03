@@ -1,23 +1,24 @@
 import React from 'react'
+import '../styles/Form.css'
 
 const Form = () => {
   return (
     <section className=''>
-        <h4>siquieres ser parte del cambio unete</h4>
-        <form action="https://formsubmit.co/eloysandoval10@hotmail.com" method="POST">
-            <label htmlFor="Nombre">Nombre</label>
-            <input type="text" name='name'/>
+        <form action="https://formsubmit.co/eloysandoval10@hotmail.com" method="POST" className='form'>
+            <h6 className='tittle_form'>Si quieres ser parte del cambio, unete!</h6>
+            {/* <label htmlFor="Nombre"></label> */}
+            <input className='imput_form' type="text" name='name' placeholder='Nombre'/>
 
-            <label htmlFor="email">correo electronico</label>
-            <input type="email" name='email'/>
+            {/* <label htmlFor="email"></label> */}
+            <input className='imput_form' type="email" name='email' placeholder='correo electronico'/>
 
-            <label htmlFor="tel">celular</label>
-            <input type="tel" name='celular'/>
+            {/* <label htmlFor="tel"></label> */}
+            <input className='imput_form' type="tel" name='celular' placeholder='celular'/>
 
-            <label htmlFor="comments">comentarios</label>
-            <textarea name="comments"  cols="15" rows="5"></textarea>
+            {/* <label htmlFor="comments"></label> */}
+            <textarea className='textarea_form' name="comments"  cols="15" rows="5" placeholder='comentarios'></textarea>
 
-            <input type="submit" value='Enviar'/>
+            <input className='btn_form' type="submit" value='Enviar'/>
 
             <input type="hidden" name='_next' value='http://localhost:5173/.' />
             <input type="hidden" name='_captcha' value='false' />

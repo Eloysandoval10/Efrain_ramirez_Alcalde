@@ -9,12 +9,14 @@ const Redes = () => {
         <p>MIS REDES SOCIALES</p>
       </div>
       <a
+      className="facebook"
         href="https://www.facebook.com/Somosgarantia?mibextid=LQQJ4d"
         target="_blank"
       >
         <i className="bx bxl-facebook-square"></i>
       </a>
       <a
+      className="instagram"
         href="https://instagram.com/somosgarantia?igshid=ZWQyN2ExYTkwZQ=="
         target="_blank"
       >

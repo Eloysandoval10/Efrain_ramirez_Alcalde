@@ -1,0 +1,67 @@
+.form {
+    background: rgba(0, 0, 0, 0.4);
+    width: 450px;
+    /* display: grid; */
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tittle_form {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.imput_form {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+.textarea_form {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+    min-height: 100px;
+    max-height: 200px;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.btn_form {
+    background-color: #31384A;
+    color: #fff;
+    padding: 20px;
+
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    border: none;
+}
+
+.btn_form:hover {
+    color: yellow;
+    background-color: #303747;
+    transition: all ease 0.5s;
+}
+
+@media (max-width:480px) {
+    .form {
+        width: 100%;
+    }
+}

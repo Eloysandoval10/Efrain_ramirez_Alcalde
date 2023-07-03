@@ -6,18 +6,26 @@
     height: 100px;
 }
 
-.container_contact a {
+.whastsapp {
     transition: all .5s ease;
     color: black;
 }
-.container_contact a:hover {
+.whastsapp:hover {
     transition: all .5s ease;
-    color: yellow;
+    color: green;
+}
+.email {
+    transition: all .5s ease;
+    color: black;
+}
+.email:hover {
+    transition: all .5s ease;
+    color: rgb(5, 5, 126);
 }
 
 .container_contact_div {
     width: 150px;
-    color: yellow;
+    color: #fff;
     margin-right: 20px;
     font-size: 20px;
 }

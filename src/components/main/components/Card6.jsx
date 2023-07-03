@@ -5,8 +5,7 @@ const Card6 = () => {
     <div className="container_card">
         <div className="container_card_image">
           <img
-            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0wn2l3P_cxACSBk8GBDlmg-uVXoFNqOl9dCM4veyXyvXcYyuMTflmQFT4Xa7Pkvfj4LC1RO-HPwiLEsfM0JB-l_f4Pj-V-w2uxwAhYSuxv25iBXgLHb_isPbZv_NnwJbHRxXHXtta8Z7jH5DcroSXIgTPkD0vK_84sbRu3H7JsuTGRcDWBxhbjGHvLQ/s1280/WhatsApp%20Image%202023-06-08%20at%209.56.33%20AM%20(1).jpeg"
-            alt=""
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMbfSbIBgMR_4P9VvuBRuWr7zZVLrfvieQFu4ZOHxMmgOpTXEIS5fJ6UPFAmMRFAvp9dP-9OBYNCL3fMxVj-QuIxafCpmx0CHO0isxcOL1IwDBi07lih8eaTkQTkWstBw0rKys7mtspIcQkEbQXPd6ImpWh--6qRMm8qcmE91LeuWh_HjQEYlHmFFxmJ-N/s1600/354616151_219386454297798_2164303092997278586_n.jpg"
           />
         </div>
         <h3>efrain visitando</h3>
