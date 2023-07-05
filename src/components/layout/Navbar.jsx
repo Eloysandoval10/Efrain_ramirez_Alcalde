@@ -20,7 +20,7 @@ const Navbar = () => {
       </div>
       <div className={`navbar_link ${btnMenu ? "active" : ""}`}>
         <a onClick={close} href="#AboutMe" className="link_a">
-          Sobe Mi
+          Sobre Mi
         </a>
         <a onClick={close} href="#main" className="link_a">
           Campaña
