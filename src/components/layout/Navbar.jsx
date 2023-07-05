@@ -8,21 +8,26 @@ const Navbar = () => {
     setBtnMenu(!btnMenu);
   };
 
+  const close = () => {
+    setBtnMenu(!btnMenu)
+  }
+
   return (
     <nav className="container_navbar">
-      <h2 className="title_app">EFRAIN RAMIREZ ALCALDE</h2>
+        <h2 className="title_app">EFRAIN RAMIREZ</h2>
       <div onClick={toggleMenu} className="">
         <i className="menu bx bx-menu-alt-right"></i>
       </div>
       <div className={`navbar_link ${btnMenu ? "active" : ""}`}>
-        {/* <a href="#navbar">inicio</a> */}
-        <a href="#main" className="link_a">
-          campaña
+        <a onClick={close} href="#AboutMe" className="link_a">
+          Sobe Mi
         </a>
-        <a href="#redes" className="link_a">
-          contacto
+        <a onClick={close} href="#main" className="link_a">
+          Campaña
         </a>
-        {/* <h5>cualquier cosa</h5> */}
+        <a onClick={close} href="#redes" className="link_a">
+          Contacto
+        </a>
       </div>
       <div className="image_logo">
         <div className="div_image">

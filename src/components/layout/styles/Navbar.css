@@ -1,11 +1,8 @@
 .container_navbar {
     height: 100%;
     width: 100%;
-    /* background-color: #c6c6c6; */
     color: white;
     display: flex;
-    /* position: fixed; */
-    /* top: 50px; */
     margin: 0 auto;
     background-size: cover;
     object-fit: cover;
@@ -13,18 +10,9 @@
 }
 
 .image_logo {
-    /* width: auto;
-    height: auto; */
     display: flex;
     justify-content: center;
     margin-top: 51px;
-    /* position: absolute; */
-    /* border: 1px solid red; */
-    /* background-size: cover;
-    position: relative;
-    background-position: center; */
-    /* position: relative; */
-    /* justify-content: space-between; */
     margin: 0 auto;
     overflow: hidden;
 }
@@ -35,40 +23,24 @@
     background-size: cover;
     background-position: center;
     position: relative;
-    /* object-fit: cover; */
-    /* border-radius: 100%; */
+    z-index: 2;
 }
 
-/* .div_image {
-    position: absolute;
-    top: 0;
-    left: 0;
-} */
-
 .navbar_link {
-    /* left: 0; */
     display: none;
-    /* z-index: 10; */
-    /* flex-wrap: ; */
-    /* flex-direction: ; */
-    /* width: auto; */
-    /* justify-content: space-between; */
     align-items: center;
     text-align: center;
     font-size: 20px;
-    /* border: 1px solid red; */
     position: fixed;
-    /* top: 20px; */
     right: -1px;
-    /* margin: 0 auto; */
     top: 50px;
     display: grid;
-    /* top: 52px; */
     background-color: #174030;
     transform: translateX(140px);
     transition: all ease .5s;
-
-    /* scroll-behavior: smooth; */
+    height: 25%;
+    z-index: 1;
+    padding: 10px;
 }
 
 .link_a {
@@ -78,6 +50,7 @@
     padding: 5px;
     transition: background 300ms ease, color 300ms ease;
 }
+
 .link_a:hover {
     color: rgb(150, 150, 112);
 }
@@ -91,7 +64,9 @@
     top: 10px;
     transition: background 300ms ease, color 300ms ease;
     right: 10px;
+    z-index: 1;
 }
+
 .menu:hover {
     color: rgb(150, 150, 112);
 }
@@ -111,8 +86,8 @@
     width: 100%;
     height: 50px;
     position: fixed;
-    /* border: 1px solid red; */
     font-size: 15px;
+    z-index: 1;
 }
 
 @media (max-width: 670px) { 
@@ -126,8 +101,6 @@
         top: 50px;
         background-color: #174030;
         transform: translateX(140px);
-        /* position: fixed; */
-        /* transition: all ease .5s; */
     }
 
     .active {

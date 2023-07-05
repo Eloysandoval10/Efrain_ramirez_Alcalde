@@ -7,11 +7,9 @@ import Form from "./components/Form";
 const Footer = () => {
   return (
     <footer className="container_footer">
-      <div>
-        <Redes/>
-        <Contact/>
-      </div>
-      <Form/>
+      <Contact />
+      <Form />
+      <Redes />
     </footer>
   );
 };

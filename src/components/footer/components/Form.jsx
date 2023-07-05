@@ -5,7 +5,7 @@ const Form = () => {
   return (
     <section className=''>
         <form action="https://formsubmit.co/eloysandoval10@hotmail.com" method="POST" className='form'>
-            <h6 className='tittle_form'>Si quieres ser parte del cambio, unete!</h6>
+            <h6 className='tittle_form'>! Si quieres ser parte del cambio, Unete !</h6>
             {/* <label htmlFor="Nombre"></label> */}
             <input className='imput_form' type="text" name='name' placeholder='Nombre'/>
 
