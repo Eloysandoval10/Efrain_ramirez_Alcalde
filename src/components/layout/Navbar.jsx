@@ -16,7 +16,7 @@ const Navbar = () => {
     <nav className="container_navbar">
         <h2 className="title_app">EFRAIN RAMIREZ</h2>
       <div onClick={toggleMenu} className="">
-        <i className="menu bx bx-menu-alt-right"></i>
+        {btnMenu ? <i className="menu bx bx-menu"></i> : <i className="menu bx bx-menu-alt-right"></i>}
       </div>
       <div className={`navbar_link ${btnMenu ? "active" : ""}`}>
         <a onClick={close} href="#AboutMe" className="link_a">
