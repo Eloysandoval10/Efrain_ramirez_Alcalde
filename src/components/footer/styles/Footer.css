@@ -11,3 +11,9 @@
     font-size: 50px;
     gap: 50px;
 }
+
+@media (max-width: 1070px) { 
+    .container_footer {
+        display: grid;
+    }
+ }

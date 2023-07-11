@@ -99,7 +99,8 @@
     .navbar_link { 
         display: grid;
         top: 50px;
-        background-color: #174030;
+        /* background-color: #174030; */
+        background-color: #e92829;
         transform: translateX(140px);
     }
 
