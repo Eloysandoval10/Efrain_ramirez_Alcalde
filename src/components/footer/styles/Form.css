@@ -53,7 +53,7 @@
 }
 
 .btn_form:hover {
-    color: yellow;
+    color: #e92829;
     background-color: #303747;
     transition: all ease 0.5s;
 }

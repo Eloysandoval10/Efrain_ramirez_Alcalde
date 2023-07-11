@@ -1,9 +1,11 @@
 .container_contact {
-    background-color: #174030;
+    /* background-color: #174030; */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100px;
+    padding-right: 5px;
+    /* border-right: 1px solid gray; */
 }
 
 .whastsapp {
@@ -29,3 +31,14 @@
     margin-right: 20px;
     font-size: 20px;
 }
+
+@media (max-width: 1095px) { 
+    .container_contact {
+        border-bottom: 1px solid gray;
+    }
+ }
+@media (min-width: 1098px) { 
+    .container_contact {
+        border-right: 1px solid gray;
+    }
+ }

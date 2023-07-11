@@ -35,7 +35,7 @@
     right: -1px;
     top: 50px;
     display: grid;
-    background-color: #174030;
+    background-color: #e92829;
     transform: translateX(140px);
     transition: all ease .5s;
     height: 25%;
@@ -45,21 +45,21 @@
 
 .link_a {
     text-decoration: none;
-    color: yellow;
+    color: white;
     cursor: pointer;
     padding: 5px;
     transition: background 300ms ease, color 300ms ease;
 }
 
 .link_a:hover {
-    color: rgb(227, 240, 43);
+    color: #fff;
 }
 
 .menu {
     cursor: pointer;
     display: flex;
     position: fixed;
-    color: yellow;
+    color: white;
     font-size: 30px;
     top: 10px;
     transition: background 300ms ease, color 300ms ease;
@@ -68,7 +68,7 @@
 }
 
 .menu:hover {
-    color: rgb(227, 240, 43);
+    color: #fff;
 }
 
 .active {
@@ -77,8 +77,8 @@
 }
 
 .title_app {
-    background-color: #174030;
-    color: yellow;
+    background-color: #e92829;
+    color: white;
     margin: 0 auto;
     display: flex;
     justify-content: center;

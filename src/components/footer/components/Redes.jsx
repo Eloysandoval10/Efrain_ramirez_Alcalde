@@ -10,14 +10,14 @@ const Redes = () => {
       </div>
       <a
       className="facebook"
-        href="https://www.facebook.com/Somosgarantia?mibextid=LQQJ4d"
+        href="https://www.facebook.com/andresfdez27"
         target="_blank"
       >
         <i className="bx bxl-facebook-square"></i>
       </a>
       <a
       className="instagram"
-        href="https://instagram.com/somosgarantia?igshid=ZWQyN2ExYTkwZQ=="
+        href="https://www.instagram.com/andresfernandezbecerril/"
         target="_blank"
       >
         <i className="bx bxl-instagram-alt"></i>
