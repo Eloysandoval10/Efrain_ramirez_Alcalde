@@ -1,0 +1,107 @@
+.containerSectionTurismo {
+  display: grid;
+  justify-content: center;
+  padding: 4rem;
+  background-color: #0a244f;
+}
+
+.titleSectionTurismo {
+  justify-content: center;
+  display: grid;
+  color: white;
+  text-align: center;
+  margin: 0px 0px 15px;
+  text-transform: uppercase;
+  /* border: 1px solid red; */
+}
+
+.spanSectionTitle1 {
+  font-weight: 400;
+  font-size: 39px;
+}
+.spanSectionTitle2 {
+  font-weight: 900;
+  padding: 0px 9.3px;
+  background-color: #e6104b;
+  font-size: 40px;
+
+  width: 35%;
+  min-width: 800px;
+  /* padding: 0.01em 0.5em; */
+}
+
+.containerSectionTurismo_secion {
+  display: flex;
+  justify-content: center;
+}
+
+.containerSectionTurismo_divCard {
+  margin-left: 3px;
+  margin-right: 3px;
+  justify-content: center;
+  display: grid;
+}
+
+.containerSectionTurismo_divImg {
+  justify-content: center;
+  display: flex;
+}
+
+.imgTurismo1 {
+  width: 60%;
+}
+
+.imgTurismo2 {
+  width: 60%;
+}
+
+.imgTurismo3 {
+  width: 60%;
+}
+
+.h3Turismo {
+  color: white;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  width: 65%;
+}
+
+.pTurismo {
+  color: wheat;
+  width: 60%;
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.containerTurismoBtn {
+  font-size: 1.2em;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  text-transform: uppercase;
+  max-width: 200px;
+  padding: 0.7em 1.3em;
+  line-height: 1;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.turismoBtn {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  background-color: #e6104b;
+  border-radius: 6px;
+  text-transform: uppercase;
+  /* max-width: 200px; */
+  padding: 0.7em 1.8em;
+  line-height: 1;
+  /* display: inline-block; */
+  /* margin: 0 auto; */
+  border: none;
+}

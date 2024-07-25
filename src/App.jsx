@@ -1,27 +1,24 @@
-import './App.css'
-import Footer from './components/footer/Footer'
-import Navbar from './components/layout/Navbar'
-import Main from './components/main/Main'
-import AboutMe from './AboutMe/AboutMe'
+import "./App.css";
+import Navbar from "./components/layout/Navbar";
+import TurismoSections from "./components/turismoSections/TurismoSections";
 
 function App() {
-
   return (
-    <section className='container'>
-      <div className='navbar_principal'  id='navbar'>
-        <Navbar/>
+    <section className="container">
+      <div className="navbar_principal" id="navbar">
+        <Navbar />
       </div>
-      <div id='AboutMe'>
-        <AboutMe/>
+      <div id="TurismoSections">
+        <TurismoSections />
       </div>
-      <div id='main'>
+      {/* <div id='main'>
         <Main/>
       </div>
       <div id='redes'>
         <Footer/>
-      </div>
+      </div> */}
     </section>
-  )
+  );
 }
 
-export default App
+export default App;
