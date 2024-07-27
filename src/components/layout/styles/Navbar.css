@@ -86,7 +86,6 @@
   align-items: center;
   width: 100%;
   height: 90px;
-  /* position: fixed; */
   font-size: 35px;
   z-index: 1;
 }
@@ -134,7 +133,6 @@
   .navbar_link {
     display: grid;
     top: 50px;
-    /* background-color: #174030; */
     background-color: #97af48;
     transform: translateX(140px);
   }
@@ -142,5 +140,23 @@
   .active {
     transform: translateY(00px);
     transition: all ease 0.5s;
+  }
+
+  .title_app {
+    display: grid;
+    text-align: center;
+  }
+}
+
+@media (max-width: 780px) {
+  .title_app {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 355px) {
+  .title_app {
+    font-size: 20px;
+    height: auto;
   }
 }

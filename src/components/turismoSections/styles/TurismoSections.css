@@ -2,7 +2,39 @@
   display: grid;
   justify-content: center;
   padding: 4rem;
+  z-index: 3;
   background-color: #0a244f;
+  position: relative;
+  overflow: hidden;
+}
+
+.otherPhotos {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  top: 310px;
+  left: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+.photo {
+  width: 100%;
+  max-width: 200px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.photo::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(128, 128, 128, 0.5);
+  z-index: 1;
+  pointer-events: none;
 }
 
 .titleSectionTurismo {
@@ -10,53 +42,50 @@
   display: grid;
   color: white;
   text-align: center;
-  margin: 0px 0px 15px;
+  margin: 0px 0px 40px;
   text-transform: uppercase;
-  /* border: 1px solid red; */
 }
 
 .spanSectionTitle1 {
   font-weight: 400;
-  font-size: 39px;
+  font-size: 21px;
 }
+
 .spanSectionTitle2 {
   font-weight: 900;
   padding: 0px 9.3px;
   background-color: #e6104b;
-  font-size: 40px;
-
+  font-size: 22px;
   width: 35%;
-  min-width: 800px;
-  /* padding: 0.01em 0.5em; */
+  min-width: 500px;
 }
 
-.containerSectionTurismo_secion {
-  display: flex;
-  justify-content: center;
+.carouselContainer {
+  width: 100%;
+  max-width: 1200px; /* Ajusta según sea necesario */
+  margin: 0 auto;
+  overflow: hidden;
+  z-index: 2;
 }
 
 .containerSectionTurismo_divCard {
-  margin-left: 3px;
-  margin-right: 3px;
-  justify-content: center;
-  display: grid;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .containerSectionTurismo_divImg {
   justify-content: center;
+  width: 320px;
+  justify-content: center;
+  margin: 0 auto;
   display: flex;
 }
 
-.imgTurismo1 {
-  width: 60%;
-}
-
-.imgTurismo2 {
-  width: 60%;
-}
-
+.imgTurismo1,
+.imgTurismo2,
 .imgTurismo3 {
-  width: 60%;
+  border-radius: 7px;
+  width: 90%; /* Ajusta para que se adapten al contenedor */
 }
 
 .h3Turismo {
@@ -70,7 +99,7 @@
 
 .pTurismo {
   color: wheat;
-  width: 60%;
+  width: 60%; /* Ajusta según sea necesario */
   justify-content: center;
   display: flex;
   margin: 0 auto;
@@ -87,7 +116,7 @@
   max-width: 200px;
   padding: 0.7em 1.3em;
   line-height: 1;
-  display: inline-block;
+  /* display: inline-block; */
   margin: 0 auto;
 }
 
@@ -98,10 +127,44 @@
   background-color: #e6104b;
   border-radius: 6px;
   text-transform: uppercase;
-  /* max-width: 200px; */
   padding: 0.7em 1.8em;
   line-height: 1;
-  /* display: inline-block; */
-  /* margin: 0 auto; */
   border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 365px) {
+  .spanSectionTitle1 {
+    font-size: 17px;
+  }
+  .spanSectionTitle2 {
+    font-size: 16px;
+  }
+
+  .pTurismo {
+    width: 40%;
+  }
+
+  .h3Turismo {
+    width: 40%;
+  }
+
+  .otherPhotos {
+    top: 290px;
+    left: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .spanSectionTitle1 {
+    font-size: 17px;
+  }
+  .spanSectionTitle2 {
+    font-size: 16px;
+    /* min-width: 320px; */
+  }
+  .otherPhotos {
+    top: 300px;
+    left: 0;
+  }
 }
