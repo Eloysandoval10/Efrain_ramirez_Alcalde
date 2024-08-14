@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./components/layout/Navbar";
 import Turismo2Section from "./components/turismo2Section/Turismo2Section";
 import TurismoSections from "./components/turismoSections/TurismoSections";
+import Footer from "./components/footer/Footer";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -34,6 +35,9 @@ function App() {
           </div>
           <div id="Turismo2Section">
             <Turismo2Section />
+          </div>
+          <div>
+            <Footer />
           </div>
         </>
       )}

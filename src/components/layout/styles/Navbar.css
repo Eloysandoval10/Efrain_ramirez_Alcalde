@@ -33,13 +33,15 @@
   font-size: 20px;
   position: fixed;
   right: -1px;
-  top: 50px;
+  top: 35px;
   display: grid;
-  background-color: #97af48;
-  transform: translateX(140px);
+  background-color: #4a0675;
+  /* background-color: #0a244f; */
+  transform: translateX(640px);
   transition: all ease 0.5s;
-  height: 25%;
-  z-index: 1;
+  height: 100%;
+  width: 45%;
+  z-index: 4;
   padding: 10px;
 }
 
@@ -77,17 +79,19 @@
 }
 
 .title_app {
-  background-color: #97af48;
   text-transform: uppercase;
   color: white;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 90px;
-  font-size: 35px;
-  z-index: 1;
+  font-size: 39px;
+  top: 200px;
+  right: 0px;
+  left: 0;
+  position: absolute;
+  z-index: 3;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
 }
 
 .nabvar_redes-container {
@@ -96,8 +100,10 @@
   align-items: center;
   width: 100%;
   height: 35px;
-  background-color: #0a244f;
+  background-color: #4a0675;
   display: flex;
+  position: fixed;
+  z-index: 4;
 }
 
 .navbar_redes {
@@ -124,6 +130,25 @@
   font-weight: 900; /* Extra Bold */
 }
 
+@media (max-width: 878px) {
+  .title_app {
+    font-size: 33px;
+  }
+}
+
+@media (max-width: 780px) {
+  .title_app {
+    font-size: 27px;
+    top: 210px;
+  }
+}
+
+@media (max-width: 725px) {
+  .title_app {
+    top: 195px;
+  }
+}
+
 @media (max-width: 670px) {
   .menu {
     display: flex;
@@ -132,9 +157,9 @@
 
   .navbar_link {
     display: grid;
-    top: 50px;
-    background-color: #97af48;
-    transform: translateX(140px);
+    top: 35px;
+    background-color: #0a244f;
+    transform: translateX(640px);
   }
 
   .active {
@@ -143,14 +168,16 @@
   }
 
   .title_app {
+    top: 130px;
+    font-size: 27px;
     display: grid;
     text-align: center;
   }
 }
 
-@media (max-width: 780px) {
+@media (max-width: 500px) {
   .title_app {
-    font-size: 30px;
+    top: 90px;
   }
 }
 
@@ -158,5 +185,35 @@
   .title_app {
     font-size: 20px;
     height: auto;
+    top: 70px;
   }
+}
+
+.menu {
+  display: block;
+  cursor: pointer;
+  top: 4px;
+  right: 40px;
+  z-index: 5;
+}
+
+.barra {
+  width: 35px;
+  height: 2px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.activo .barra:nth-child(1) {
+  transform: rotate(-45deg) translate(-4px, 4px);
+}
+
+.activo .barra:nth-child(2) {
+  opacity: 0;
+  transform: translateX(-25px);
+}
+
+.activo .barra:nth-child(3) {
+  transform: rotate(45deg) translate(-7px, -7px);
 }

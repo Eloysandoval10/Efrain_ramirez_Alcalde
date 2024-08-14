@@ -2,8 +2,8 @@
   display: grid;
   justify-content: center;
   padding: 4rem;
-  z-index: 3;
-  background-color: #0a244f;
+  z-index: 2;
+  background-color: #4a0675;
   position: relative;
   overflow: hidden;
 }
@@ -54,10 +54,12 @@
 .spanSectionTitle2 {
   font-weight: 900;
   padding: 0px 9.3px;
-  background-color: #e6104b;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+  background-color: #f6c915;
   font-size: 22px;
   width: 35%;
   min-width: 500px;
+  border-radius: 5px;
 }
 
 .carouselContainer {
