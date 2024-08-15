@@ -15,7 +15,7 @@ const TurismoSections = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 3000,
     arrows: true,
     responsive: [
@@ -48,6 +48,9 @@ const TurismoSections = () => {
         <img src={fonPag} alt="Photo 7" className="photo" />
         <img src={fonPag} alt="Photo 8" className="photo" />
         <img src={fonPag} alt="Photo 9" className="photo" />
+        <img src={fonPag} alt="Photo 10" className="photo" />
+        <img src={fonPag} alt="Photo 11" className="photo" />
+        <img src={fonPag} alt="Photo 12" className="photo" />
       </div>
       <h2 className="titleSectionTurismo">
         <span className="spanSectionTitle1">busca el encanto de colombia</span>

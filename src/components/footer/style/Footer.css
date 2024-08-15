@@ -19,11 +19,12 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 20px;
+  margin: 0 auto;
 }
 
 .field_item {
   /* margin: 0 100px; */
-  padding: 0;
+  /* padding: 0; */
   color: white;
 
   /* border: 1px solid red; */
@@ -90,5 +91,11 @@
   }
   .list_variant-2 {
     justify-content: center;
+  }
+}
+
+@media (max-width: 310px) {
+  .field_item {
+    width: 300px;
   }
 }

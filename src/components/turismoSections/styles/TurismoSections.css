@@ -71,15 +71,19 @@
 }
 
 .containerSectionTurismo_divCard {
-  padding: 20px;
+  /* padding: 20px; */
   box-sizing: border-box;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
 }
 
 .containerSectionTurismo_divImg {
-  /* display: flex;
-  justify-content: center; */
+  display: flex;
+  justify-content: center;
   width: 320px;
   margin: 0 auto;
+  /* border: 1px solid red; */
 }
 
 .imgTurismo1,
@@ -89,6 +93,7 @@
   width: 90%;
   height: 400px;
   object-fit: cover;
+  /* border: 1px solid red; */
 }
 
 .h3Turismo {
@@ -98,10 +103,12 @@
   justify-content: center;
   display: flex;
   margin: 0 auto;
+  /* border: 1px solid red; */
   width: 65%;
 }
 
 .pTurismo {
+  /* border: 1px solid red; */
   color: wheat;
   width: 60%; /* Ajusta según sea necesario */
   justify-content: center;
@@ -111,6 +118,7 @@
 }
 
 .containerTurismoBtn {
+  /* border: 1px solid red; */
   font-size: 1.2em;
   text-align: center;
   color: white;

@@ -158,13 +158,13 @@
   .navbar_link {
     display: grid;
     top: 35px;
-    background-color: #0a244f;
+    background-color: var(--primary-color);
     transform: translateX(640px);
   }
 
   .active {
     transform: translateY(00px);
-    transition: all ease 0.5s;
+    transition: all ease 0.3s;
   }
 
   .title_app {
