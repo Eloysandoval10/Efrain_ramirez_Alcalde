@@ -35,7 +35,7 @@
   right: -1px;
   top: 35px;
   display: grid;
-  background-color: #4a0675;
+  background-color: var(--primary-color);
   /* background-color: #0a244f; */
   transform: translateX(640px);
   transition: all ease 0.5s;
@@ -100,7 +100,7 @@
   align-items: center;
   width: 100%;
   height: 35px;
-  background-color: #4a0675;
+  background-color: var(--primary-color);
   display: flex;
   position: fixed;
   z-index: 4;

@@ -3,7 +3,7 @@
   justify-content: center;
   padding: 4rem;
   z-index: 2;
-  background-color: #4a0675;
+  background-color: var(--primary-color);
   position: relative;
   overflow: hidden;
 }
@@ -76,18 +76,19 @@
 }
 
 .containerSectionTurismo_divImg {
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
   width: 320px;
-  justify-content: center;
   margin: 0 auto;
-  display: flex;
 }
 
 .imgTurismo1,
 .imgTurismo2,
 .imgTurismo3 {
   border-radius: 7px;
-  width: 90%; /* Ajusta para que se adapten al contenedor */
+  width: 90%;
+  height: 400px;
+  object-fit: cover;
 }
 
 .h3Turismo {

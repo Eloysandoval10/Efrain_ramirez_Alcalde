@@ -27,24 +27,24 @@ const Footer = () => {
               <p>&nbsp;</p>
               <ul className="list_variant-2">
                 <li>
-                  <i className="bx bxl-instagram"></i>
+                  <i className="bx bxl-facebook"></i>
                 </li>
                 <li>
                   <i className="bx bxl-instagram"></i>
                 </li>
                 <li>
-                  <i className="bx bxl-instagram"></i>
+                  <i className="bx bxl-whatsapp"></i>
                 </li>
                 <li>
-                  <i className="bx bxl-instagram"></i>
+                  <i className="bx bxl-youtube"></i>
                 </li>
                 <li>
-                  <i className="bx bxl-instagram"></i>
+                  <i className="bx bxl-telegram"></i>
                 </li>
               </ul>
             </section>
             <section className="field_item">
-              <h3>nuestros clientes</h3>
+              <h3 className="title_variant-1">nuestros clientes</h3>
               <ul className="list_variant-1">
                 <li className="list_variant-li">
                   <a href="">procolombia</a>
@@ -64,7 +64,7 @@ const Footer = () => {
               </ul>
             </section>
             <section className="field_item">
-              <h3>enlaces de interes</h3>
+              <h3 className="title_variant-1">enlaces de interes</h3>
               <ul className="list_variant-1">
                 <li className="list_variant-li">
                   <a href="">servicio al ciudadano</a>
