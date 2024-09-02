@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./styles/Navbar.css";
 import myImgNavbar from "../../../image/becerril.jpg";
+import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const [btnMenu, setBtnMenu] = useState(false);
@@ -20,6 +21,8 @@ const Navbar = () => {
     setBtnMenu(!btnMenu);
   };
 
+  const location = useLocation();
+
   return (
     <nav>
       <div className="container_navbar">
@@ -35,17 +38,45 @@ const Navbar = () => {
             <i className="menu bx bx-menu-alt-right"></i>
           )}
         </div> */}
-        <div className={`navbar_link ${btnMenu ? "active" : ""}`}>
-          {/* <a onClick={close} href="#AboutMe" className="link_a">
-            Sobre Mi
-          </a>
-          <a onClick={close} href="#main" className="link_a">
-            Campaña
-          </a>
-          <a onClick={close} href="#redes" className="link_a">
-            Contacto
-          </a> */}
-        </div>
+        <ul className={`navbar_link ${btnMenu ? "active" : ""}`}>
+          {/* El botón "Inicio" siempre está visible */}
+          <Link className="li_1" onClick={toggleMenu} to="/">
+            <h3 className="link_a">Inicio</h3>
+          </Link>
+          {/* Solo muestra los enlaces internos si estás en la ruta "/" */}
+          {location.pathname === "/" && (
+            <>
+              <li className="li_2">
+                <a
+                  onClick={toggleMenu}
+                  href="#TurismoSections"
+                  className="link_a"
+                >
+                  Busca
+                </a>
+              </li>
+              <li className="li_3">
+                <a
+                  onClick={toggleMenu}
+                  href="#Turismo2Section"
+                  className="link_a"
+                >
+                  Destinos
+                </a>
+              </li>
+              <li className="li_4">
+                <a onClick={toggleMenu} href="#SectionMaps" className="link_a">
+                  Mapa
+                </a>
+              </li>
+              <li className="li_5">
+                <a onClick={toggleMenu} href="#Footer" className="link_a">
+                  Información
+                </a>
+              </li>
+            </>
+          )}
+        </ul>
       </div>
 
       <div className="nabvar_redes-container">

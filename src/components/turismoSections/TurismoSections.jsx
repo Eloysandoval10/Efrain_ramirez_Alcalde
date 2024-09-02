@@ -7,6 +7,7 @@ import fonPag from "../../../image/fondoPag.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./styles/TurismoSections.css";
+import { Link } from "react-router-dom";
 
 const TurismoSections = () => {
   const settings = {
@@ -71,7 +72,9 @@ const TurismoSections = () => {
               un país lleno de encanto con escenarios de película.
             </p>
             <div className="containerTurismoBtn">
-              <button className="turismoBtn">conoce más</button>
+              <Link to="/destinos1">
+                <button className="turismoBtn">conoce más</button>
+              </Link>
             </div>
           </div>
           <div className="containerSectionTurismo_divCard">
@@ -84,7 +87,9 @@ const TurismoSections = () => {
               un país lleno de encanto con escenarios de película.
             </p>
             <div className="containerTurismoBtn">
-              <button className="turismoBtn">conoce más</button>
+              <Link to="/destinos2">
+                <button className="turismoBtn">conoce más</button>
+              </Link>
             </div>
           </div>
           <div className="containerSectionTurismo_divCard">
@@ -99,7 +104,9 @@ const TurismoSections = () => {
               un país lleno de encanto con escenarios de película.
             </p>
             <div className="containerTurismoBtn">
-              <button className="turismoBtn">conoce más</button>
+              <Link to="/destinos3">
+                <button className="turismoBtn">conoce más</button>
+              </Link>
             </div>
           </div>
         </Slider>
