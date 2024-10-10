@@ -1,11 +1,11 @@
 import React from "react";
-import jetona1 from "../../image/pagesImage/jetona1.jpg";
+import ListTarjeta from "../components/desTarjeta1/ListTarjeta";
 
 const Destinos1 = () => {
   return (
     <div>
-      <div className="containerSectionTurismo_divImg">
-        <img src={jetona1} alt="" className="imgTurismo1" />
+      <div className="containerSectionTurismo_divImg-tar">
+        <ListTarjeta />
       </div>
     </div>
   );

@@ -1,0 +1,29 @@
+.tarjeta {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px;
+  width: 300px; /* Ajusta según tus necesidades */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.tarjeta:hover {
+  transform: scale(1.05);
+}
+
+.tarjeta-imagenes {
+  display: flex;
+  justify-content: center;
+  overflow: hidden; /* Oculta las imágenes que salgan del contenedor */
+}
+
+.tarjeta-imagen {
+  width: 100%; /* Mantiene el tamaño de la imagen dentro de la tarjeta */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.tarjeta-contenido {
+  padding: 10px;
+  text-align: center; /* Centra el contenido del texto */
+}

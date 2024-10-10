@@ -90,8 +90,8 @@ const Navbar = () => {
       </div>
 
       <h2 className="title_app">
-        <spam className="thin">guia geoturistica y </spam>{" "}
-        <spam className="thicker"> cultural de becerril</spam>
+        <span className="thin">guia geoturistica y </span>{" "}
+        <span className="thicker"> cultural de becerril</span>
       </h2>
 
       <div className="image_logo">

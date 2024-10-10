@@ -63,9 +63,9 @@ const TurismoSections = () => {
       <div className="carouselContainer">
         <Slider {...settings}>
           <div className="containerSectionTurismo_divCard">
-            <div className="containerSectionTurismo_divImg">
-              <img src={fon3} alt="" className="imgTurismo1" />
-            </div>
+            <Link to="/destinos1" className="containerSectionTurismo_divImg">
+              <img src={fon3} alt="" className="imgTurismo3" />
+            </Link>
             <h3 className="h3Turismo">destinos con tradiciones que enamoran</h3>
             <p className="pTurismo">
               Conocimientos ancestrales y miles de aventuras más te esperan en
@@ -78,9 +78,9 @@ const TurismoSections = () => {
             </div>
           </div>
           <div className="containerSectionTurismo_divCard">
-            <div className="containerSectionTurismo_divImg">
-              <img src={fon2} alt="" className="imgTurismo1" />
-            </div>
+            <Link to="/destinos2" className="containerSectionTurismo_divImg">
+              <img src={fon2} alt="" className="imgTurismo3" />
+            </Link>
             <h3 className="h3Turismo">destinos con tradiciones que enamoran</h3>
             <p className="pTurismo">
               Conocimientos ancestrales y miles de aventuras más te esperan en
@@ -93,9 +93,9 @@ const TurismoSections = () => {
             </div>
           </div>
           <div className="containerSectionTurismo_divCard">
-            <div className="containerSectionTurismo_divImg">
-              <img src={fon1} alt="" className="imgTurismo3" />
-            </div>
+            <Link to="/destinos3" className="containerSectionTurismo_divImg">
+              <img src={fon1} alt="" className=" imgTurismo3" />
+            </Link>
             <h3 className="h3Turismo">
               destinos con experiencias que enamoran
             </h3>

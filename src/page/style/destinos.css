@@ -1,0 +1,26 @@
+.containerSectionTurismo_divImg-tar {
+  text-align: center;
+  /* margin: 20px; */
+  width: 100%;
+  display: grid;
+  gap: 5px;
+}
+
+.imagenes-seccion {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(200px, 1fr)
+  ); /* Tamaño mínimo de las columnas */
+  gap: 10px; /* Espacio entre las imágenes */
+  justify-items: center; /* Centra las imágenes dentro de las celdas */
+  padding: 0 20px; /* Espacio lateral */
+  box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+}
+
+.imgTurismo1 {
+  width: 100%;
+  height: auto; /* Mantiene la proporción de las imágenes */
+  border-radius: 8px; /* Bordes redondeados */
+}
