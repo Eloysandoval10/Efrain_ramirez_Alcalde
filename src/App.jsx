@@ -7,6 +7,8 @@ import Main from "./components/main/Main";
 import Destinos1 from "./page/Destinos1";
 import Destinos2 from "./page/Destinos2";
 import Destinos3 from "./page/Destinos3";
+import GoogleMapsProvider from "./components/gogleMaps/GogleMapsProvider";
+import SiteDetail from "./page/SiteDetail";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -30,18 +32,22 @@ function App() {
         </div>
       ) : (
         <>
-          <div className="navbar_principal" id="navbar">
-            <Navbar />
-          </div>
-          <Routes>
-            <Route path="/" element={<Main />} />
-            <Route path="/destinos1" element={<Destinos1 />} />
-            <Route path="/destinos2" element={<Destinos2 />} />
-            <Route path="/destinos3" element={<Destinos3 />} />
-          </Routes>
-          <div id="Footer">
-            <Footer />
-          </div>
+          <GoogleMapsProvider>
+            <div className="navbar_principal" id="navbar">
+              <Navbar />
+            </div>
+
+            <Routes>
+              <Route path="/" element={<Main />} />
+              <Route path="/destinos1" element={<Destinos1 />} />
+              <Route path="/destinos2" element={<Destinos2 />} />
+              <Route path="/destinos3" element={<Destinos3 />} />
+              <Route path="/site/:id" element={<SiteDetail />} />
+            </Routes>
+            <div id="Footer">
+              <Footer />
+            </div>
+          </GoogleMapsProvider>
         </>
       )}
     </section>
